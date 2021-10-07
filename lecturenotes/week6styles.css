@@ -1,0 +1,21 @@
+h1 {
+    color:darkmagenta;
+    font-size: 400%;
+    letter-spacing: 2em;
+}
+p {color:darkcyan;
+    font-weight: bolder;
+}
+body {
+    color:darkseagreen;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+h1, h2 {
+    font-size: 400%;
+    /*this is a grouped selector - it will style both headings*/
+
+}
+p a{
+    color: orange;
+}
+/* the maroon only gets applied to dark sea green because p and h1 have their own colors*/

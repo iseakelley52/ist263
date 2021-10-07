@@ -1,0 +1,13 @@
+body {
+    font-family: 'Georgia';
+
+}
+
+h1, h2{ color: green}
+
+.evenrow {background-color: gray}
+
+h1 {font-size: 4em}
+h2 {font-size: 2em}
+
+
