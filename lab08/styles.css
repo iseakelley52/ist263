@@ -33,13 +33,14 @@ nav {margin-bottom: 30px}
 
 .section1, .section2, .section3 {background-color: #dceff2; border-radius: 1em; margin: 15px; } 
 
-
+.profile1{float: right; }
 .profile1 {clear: both; }
 
 
 .section2, .section3 {display: flex; }
 .section2, .section3 {padding: 40px; }
 .section3 {padding-left: 170px; }
+.quote {margin-left: 10px; }
 
 
 
