@@ -1,0 +1,83 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: #ffffff;
+
+}
+
+p {
+    color: #11324d; 
+
+}
+
+h1, h2, h3 { font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #6b7aa1; 
+
+
+}
+
+ul {color: #11324d;
+}
+
+table, th, td {color: #146e54;
+            border: 1px solid #146e54; 
+ }
+
+ nav {background-color: #dceff2
+}
+
+nav a {color: #146E54;  }
+nav a:hover {background-color: #146e54}
+nav {padding: 10px}
+nav {margin-bottom: 30px}
+
+
+.section1, .section2, .section3 {background-color: #dceff2; border-radius: 1em; margin: 15px; } 
+
+.profile1{float: right; }
+.profile1 {clear: both; }
+
+
+.section2, .section3 {display: flex; }
+.section2, .section3 {padding: 40px; }
+.section3 {padding-left: 170px; }
+img {margin-right: 20px; padding: 20px; }
+
+h1, h3 {text-align: center;}
+
+div { margin: 5px;  
+    margin-left: 10px;
+}
+
+.icons img {
+    width: 30%; 
+    padding: 5px; 
+    margin-top: 90px; 
+} /*decendant selector will change each individual image within the div*/
+
+.icons {
+    display: flex;
+    
+
+}
+
+/*p {text-align: justify;}*/ /*how to cneter text below the icons?*/
+
+aside {
+    background-color: #dceff2; border-radius: 1em; margin: 15px; 
+    padding: 15px; 
+    padding-top: 3px;
+    
+
+} 
+
+.flex2 {
+    display: flex; 
+    justify-content: flex-end;
+    margin-top: 30px; /*idk how to make it so that this container doesn't move down when i add margins to my other containers*/
+}
+
+
+a:link {color: #c1cfc0; }
+a:visited {color: #345b63; }
+a:hover {color: #c2e8f0; }
+
