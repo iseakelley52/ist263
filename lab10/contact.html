@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--makes the webiste load full size on mobile devices, must be inside head tags -->
+        <title>Contact</title>
+        <link rel="stylesheet" href=styles.css>
+    </head>
+
+    <body>
+        <nav>
+            <a href= index.html>Home</a>
+            <a href= contact.html>Contact</a>
+            <a href= skills.html>My Skills</a>
+        </nav>
+        <h1>Contact</h1>
+        
+        <div>
+            <div class="section1">
+            <h2 class="container1">Iseabail Kelley – 900 South Crouse Avenue, Syracuse, New York, 13210</h2><br>
+            <a href="mailto:iakelley@syr.edu">Iseabail Kelley Email</a><br> 
+            
+            
+         <br>
+            <div class="profile1"></div> 
+            <a href="https://www.linkedin.com/in/iseabailkelley/" target="_blank"><img src="../images/LinkedIn-Logos/LI-Logo-sized.png" alt="My LinkedIn Profile"></a> 
+        </div>
+        <br>
+        
+    <div class="section2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2916.1993486868064!2d-76.1378095!3d43.037237!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f4537cd79%3A0x968a90aa98400698!2s900%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1631807829251!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <div class="section3">
+        <form action ="mailto:iakelley@syr.edu" method="POST">
+            <label for="fullname">Enter Full Name:</label>
+            <input type="text" id="fullname" name="fname"><br>
+
+            <label for="questions">What questions do you have for me?</label><br>
+            <textarea id="questions" name="questions">Ask your question here.</textarea><br>
+
+            <p>Do you want to talk over the phone? </p>
+            <input type="radio" id="yes" name="yes" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="no" value="no">
+            <label for="no">No</label><br>
+            <br>
+            <label for="contactmethod">How would you like to be contacted?</label>
+            <select id="contactmethod" name="contactmethod">
+                <option value="phone">phone</option>
+                <option value="email">email</option>
+                <option value="instagram">Instagram DM</option>
+            </select>
+            <br>
+            <label for="contacttime">Can I contact you at night?</label>
+            <input type="checkbox" id="contacttime" name="contacttime" value="yes"><br>
+            <input type="submit" value="Let's Chat!"><br>
+
+        </form>
+         </div>
+
+    </div>
+    </body>
+</html>

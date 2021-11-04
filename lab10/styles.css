@@ -33,7 +33,10 @@ nav {margin-bottom: 30px}
 
 .section1, .section2, .section3 {background-color: #dceff2; border-radius: 1em; margin: 15px; } 
 
-.profile1{float: right; }
+.profile1{
+    float: right; 
+    /*display: flex; */ 
+}
 .profile1 {clear: both; }
 
 
