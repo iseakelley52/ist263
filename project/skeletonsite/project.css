@@ -1,0 +1,71 @@
+.musicstyles1 {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.homepageheader1 {
+    display: flex; 
+    justify-content: center;
+    margin: -11em;
+}
+
+.newsimages {
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color:#949dd4
+}
+h2 {
+    color: #2b6679; 
+}
+
+h3 { color: #747db9
+
+}
+
+nav {
+    color: #2b6679;
+    background-color: #eaf2f3;
+    border-radius: .25em; ;
+}
+nav a{color: #385863;}
+nav a:visited {color: #5563c0}
+nav a:hover {color: #011014}
+
+nav {padding: 20px; margin: 15px; }
+nav {margin-bottom: 30px; }
+
+.intro1 {background-color: #eaf2f3; border-radius: 1em; margin: 15px; padding: 20px; } 
+
+.playlistintro {background: #ffffff; padding: 20px; margin: 15px; }
+
+.profile1 {
+    width:min-content; 
+}
+
+p {
+    color: #11324d; 
+    
+}
+
+p, nav, h1, h2, h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+}
+
+
+/*.overlay{
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0.5, 0, 0, 0); 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: #2b6679;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}/*
