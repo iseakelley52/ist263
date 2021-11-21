@@ -1,43 +1,88 @@
 .musicstyles1 {
     display: flex; 
     justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
 }
+
 
 .homepageheader1 {
     display: flex; 
     justify-content: center;
-    margin: -11em;
+    margin: -10em;
+    margin-left: 3em; ;
+    width: 100%;
 }
 
 .newsimages {
     display: flex;
     justify-content: center;
+    margin-bottom: 5em; 
+    margin-top: 5em;
+    margin-left: 25px; 
+    margin-right: 25px; 
+    max-width: 100%; 
 }
+
+.section2 {
+    display: flex; 
+    justify-content: space-between;
+    margin: 1em; 
+    padding: 10px; 
+    max-width: 100%; 
+}
+
+.profile1 {
+    margin-top: 13em; 
+    margin-right: 5em; 
+}
+
+
+.nyt{
+    margin: 1em; 
+    margin-left:60px; 
+}
+
+.wired{
+    margin: 1em; 
+}
+
+.wsj {
+    margin: 1em;  
+    margin-right: 60px; 
+}
+
 
 h1{
-    color:#949dd4
+    color:#3b1f08;
 }
 h2 {
-    color: #2b6679; 
+    color: #221103;
 }
 
-h3 { color: #747db9
+h3 { color: #362314; 
 
 }
 
 nav {
     color: #2b6679;
-    background-color: #eaf2f3;
+    background-color: #f3f2ea;
     border-radius: .25em; ;
 }
 nav a{color: #385863;}
-nav a:visited {color: #5563c0}
-nav a:hover {color: #011014}
+nav a:visited {color: #362314}
+nav a:hover {color: #3d90a7}
 
 nav {padding: 20px; margin: 15px; }
 nav {margin-bottom: 30px; }
 
-.intro1 {background-color: #eaf2f3; border-radius: 1em; margin: 15px; padding: 20px; } 
+.intro1 {background-color: #f3f2ea; border-radius: 1em; margin: 15px; padding: 20px; } 
+
+.news1 {
+    background-color: #f3f2ea; border-radius: 1em; margin: 15px; padding: 20px; 
+    margin: 15px; 
+    padding: 30px;
+} 
 
 .playlistintro {background: #ffffff; padding: 20px; margin: 15px; }
 
@@ -51,11 +96,20 @@ p {
 }
 
 p, nav, h1, h2, h3 {
-    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif /*how can I make it so its thinner?*/
 }
 
+@media only screen and (max-width: 670px) {
+    nav a {
+        width: 100%; 
+        display: block; 
+    }
+    span {
+        display: none; 
+    }
+}
 
-/*.overlay{
+/*.overlay{ :hover and then change background color 
     position: absolute; 
     bottom: 0; 
     background: rgb(0, 0, 0);
