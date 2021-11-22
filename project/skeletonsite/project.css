@@ -64,6 +64,10 @@ h3 { color: #362314;
 
 }
 
+a {
+    olor: #221103; 
+}
+
 nav {
     color: #2b6679;
     background-color: #f3f2ea;
@@ -95,7 +99,7 @@ p {
     
 }
 
-p, nav, h1, h2, h3 {
+p, nav, h1, h2, h3, a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif /*how can I make it so its thinner?*/
 }
 
