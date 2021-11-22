@@ -64,7 +64,7 @@ h3 { color: #362314;
 
 }
 
-a {
+.newsimages a {
     color: #221103; 
 }
 
@@ -99,7 +99,7 @@ p {
     
 }
 
-p, nav, h1, h2, h3, a {
+p, nav, h1, h2, h3, .newsimages a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif /*how can I make it so its thinner?*/
 }
 
