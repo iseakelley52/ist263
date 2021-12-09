@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isea's Brain Dump</title>
     <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
 </head>
+<script>
+    function weekPlaylist () {
+        document.getElementById('playweek').style.display = 'block' ;
+    }
+</script>
 <body>
   <nav>
       <a href="skeleton.html">Home</a>
-      <a href="musicmix.html">Weekly Playlist</a>
+      <a href="musicmix.html">Weekly Music Mix</a>
       <a href="blog.html">Blog</a>
       <a href="news.html">News</a> 
   </nav>
@@ -18,7 +27,7 @@
    
  <header>
         <div class="homepageheader1">
-            <img src="../projectimages/homepageheader2.png" alt="header">
+            <img src= "../projectimages/blogheader.png" alt="header">
         </div>
     </header>
    
@@ -37,7 +46,8 @@
             <p>Jump right in by listening to one of my weekly playlists. One of my favorite things to curate for you all :)</p> 
             <p>
                 <a href='musicmix.html'>
-                    <img src="../projectimages/playlisthomepage.png" alt="This Week's Playlist">
+                    <img id="playweek" src="../projectimages/playlisthomepage.png" alt="This Week's Playlist">
+                    <a onclick="weekPlaylist();">
                 </a>
             </p>        
         </div>
