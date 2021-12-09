@@ -14,6 +14,10 @@
     width: 100%;
 }
 
+.homeheader2 {
+    max-width: 100%;
+} /* this is messed up on mobile - needs to be responsive*/ 
+
 footer {
     background-color: #eaf8eb
 }
@@ -27,7 +31,7 @@ footer {
 }
 
 #playweek {
-    box-shadow: 7px 7px 7px #3d90a7;
+    box-shadow: 4px 4px 4px #443830;
 }
 
 .newsimages {
@@ -100,28 +104,53 @@ nav {margin-bottom: 30px; }
 
 .news1 {
     background-color: #eaf8eb; border-radius: 1em; margin: 15px; padding: 20px; 
-    margin: 15px; 
-    padding: 30px;
 } 
 
-.playlistintro {background: #ffffff; padding: 20px; margin: 15px; }
+.newsimages {
+    display: flex; 
+    justify-content: center;
+}
 
+
+
+.playlistintro {
+    background: #eaf8eb; padding: 20px; margin: 15px; border-radius: 1em;
+}
+
+.playlistcontainer {
+    display: flex; 
+
+}
+
+.playheader {
+    display: flex; 
+    justify-content: center;
+}
 .profile1 {
     width:min-content; 
+
 }
 
 p {
     color: #11324d; 
 }
 
-p, nav, h3, .newsimages, h1, h2, a , .song1, .song2, .song3, .song4, .song5, .song6, .song7 {
+p, nav, h3, .newsimages, h1, h2, a , .song1, .song2, .song3, .song4, .song5, .song6, .song7, #modal, .subbutton{
     font-family: 'Quicksand', sans-serif; /*how can I make it so its thinner?*/
 }
 
+.subbutton {
+    padding: 2px; 
+    margin-top: 3px; 
+}
 
 .musicmixhead {
-    padding-left: 190px;
-    padding-right: 190px; 
+    display: flex; 
+    justify-content: center;
+}
+
+.musicheader1 {
+    max-width: 100%;
 }
 
 .brainfinal {
@@ -139,13 +168,6 @@ p, nav, h3, .newsimages, h1, h2, a , .song1, .song2, .song3, .song4, .song5, .so
     }
 }
 
-#playlist {
-    float: right; 
-}
-
-.playexplain {
-    clear: both; 
-}
 
 #modal {
     position: absolute; 
