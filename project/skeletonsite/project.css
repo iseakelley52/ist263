@@ -268,12 +268,14 @@ p, nav, h3, .newsimages, h1, h2, a , .song1, .song2, .song3, .song4, .song5, .so
 .blog {
     display: flex; 
     flex: 2; 
+    max-width: 100%; 
 }
+
 
 .blogpics {
     display: flex; 
     flex-wrap: wrap; 
-    margin-right: 15px; 
+    max-width: 100%; 
 }
 
 .eck , .urb {
@@ -296,14 +298,14 @@ p, nav, h3, .newsimages, h1, h2, a , .song1, .song2, .song3, .song4, .song5, .so
     max-width: 100%;
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 800px) {
     .playlistcontainer {
         width: 100%; 
         display: block; 
     }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 800px) {
     .song1, .song2, .song3, .song4, .song5, .song6, .song7 {
         width: 100%; 
         display: flex;
@@ -311,15 +313,13 @@ p, nav, h3, .newsimages, h1, h2, a , .song1, .song2, .song3, .song4, .song5, .so
     }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 800px) {
     .exp1, .exp2, .exp3, .exp4, .exp5, .exp6, .exp7 {
         width: 100%; 
         display: flex;
         flex-wrap: wrap;  
     }
 }
-
-
 
 
 .articleinfo {
@@ -350,7 +350,8 @@ p, nav, h3, .newsimages, h1, h2, a , .song1, .song2, .song3, .song4, .song5, .so
 .news_container {
     display: flex; 
     flex: 2; 
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
+    max-width: 100%; 
     
 }
 
@@ -377,6 +378,12 @@ footer {
 }
 
 
+
+@media only screen and (max-width: 1200px) {
+    .news_container { 
+        display: block;  
+    }
+}
 
 
 
