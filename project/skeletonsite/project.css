@@ -79,6 +79,7 @@ footer {
 
 .profile1 {
     flex: 1; 
+    max-width: 100;
 }
 
 .nyt{
@@ -289,6 +290,7 @@ p, nav, h3, .newsimages, h1, h2, a , .song1, .song2, .song3, .song4, .song5, .so
 
 .exp1, .exp2, .exp3, .exp4,.exp5, .exp6, .exp7 {
     display: flex; 
+    flex-wrap: wrap; 
     flex: 2; 
     margin: 1em; 
     color: #11324d; 
