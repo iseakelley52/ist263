@@ -18,6 +18,10 @@
         function closeModal () {
             document.getElementById('modal').style.display = 'none';
         }
+
+        closeModal.onclick = function() {
+            modal.style.display = "none";
+        }
     </script>
 </head>
 <body>
@@ -33,70 +37,88 @@
             <img src="../projectimages/musicmixfinal.png" alt="My Music Mix" class="musicheader1"> 
         </div>
     </header>
+<main>
+<div class="musicintro1">
+   <div class="musicheader2">
+        <h1 class="musichead"><strong>Weekly Music Mix</strong></h1><br>
+        <h2>Dec. 13, 2021</h2>
+        <p>The past week has felt nostalgic while also optimistic. I’m at a stage where I’ve been away from home long enough where my friends and life in Syracuse feels like home, but that I’m also looking forward to starting new things this summer and maybe moving somewhere else. This week’s playlist has a different variety of songs, some empowering but sentimental – like Kacey Musgraves “Breadwinner” – while others are exciting and energizing – The Weeknd’s “Take My Breath.”</p><br>
+    </div>   
+</div>   
 
-    <h1><strong>Weekly Music Mix</strong></h1><br>
-    <h2>Dec. 13, 2021</h2>
-    <p>The past week has felt nostalgic while also optimistic. I’m at a stage where I’ve been away from home long enough where my friends and life in Syracuse feels like home, but that I’m also looking forward to starting new things this summer and maybe moving somewhere else. This week’s playlist has a different variety of songs, some empowering but sentimental – like Kacey Musgraves “Breadwinner” – while others are exciting and energizing – The Weeknd’s “Take My Breath.”</p><br>
-
-
-    <div class="playlistcontainer">
-        <div id="playlist">
-            <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/breadwinner/1582033417?i=1582036796"></iframe>
-            <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/politics-violence/1521345121?i=1521345538"></iframe>
-            <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/tyler-herro/1542886672?i=1542886960"></iframe>
-            <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/believe-what-i-say/1587795158?i=1587795305"></iframe>
-            <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/chill/1455668668?i=1455668669"></iframe>
-            <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/skate/1578738180?i=1578738184"></iframe>
-            <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/take-my-breath/1579408007?i=1579408008"></iframe>
-        </div>
-        
-        </div class="playexplain">
+</div class="playlistcontainer">
             <div class="song1">
-                <strong>Breadwinner – Kacey Musgraves, star-crossed</strong> <br>
-                Musgraves brings female empowerment to a new level with “Breadwinner,” a new hit off of her most recent album. The idea of men using women for their success, seemingly something Musgraves experienced before her recent divorce, along with a catchy melody, makes Breadwinner an immediate favorite for any feminist.    
+                <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/breadwinner/1582033417?i=1582036796"></iframe>
+                <div class="exp1">
+                    Musgraves brings female empowerment to a new level with “Breadwinner,” a new hit off of her most recent album. The idea of men using women for their success, seemingly something Musgraves experienced before her recent divorce, along with a catchy melody, makes Breadwinner an immediate favorite for any feminist.
+                </div>    
             </div>
             <div class="song2">
-                <strong>Politics and Violence – Dominic Fike, What Could Possibly Go Wrong</strong> <br>
-                Dominic Fike has always been one of my favorites. His music always feels so raw. "Politics and Violence" takes a concept that is so heavy and makes it feel softer without taking away from its importance. <br>
+                <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/politics-violence/1521345121?i=1521345538"></iframe>
+                <div class="exp2">  
+                    Dominic Fike has always been one of my favorites. His music always feels so raw. "Politics and Violence" takes a concept that is so heavy and makes it feel softer without taking away from its importance. <br>
+                </div>
             </div>
             <div class="song3">
-                <strong>Tyler Herro – Jack Harlow, That's What They All Say</strong><br>
-                I can say confidently that Jack Harlow’s That's What They All Say put him on the map the past year. Harlow’s clever lyrics and oozing confidence, obvious in every line, make “Tyler Herro,’ along with the rest of That's What They All Say, something I could listen to 24/7.<br>     
+                <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/tyler-herro/1542886672?i=1542886960"></iframe> 
+                <div class="exp3">
+                    I can say confidently that Jack Harlow’s That's What They All Say put him on the map the past year. Harlow’s clever lyrics and oozing confidence, obvious in every line, make “Tyler Herro,’ along with the rest of That's What They All Say, something I could listen to 24/7.<br>
+                </div>     
             </div>
             <div class="song4">
-                <strong>Believe What I Say – Kanye West, Donda</strong> <br>
-                Anything that samples Lauryn Hill is on track to be amazing, but “Believe What I Say” brings Hill’s classic back to life. Donda stirred up controversy regarding its release date, but “Believe What I Say” makes up for it. <br>   
+                <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/believe-what-i-say/1587795158?i=1587795305"></iframe>
+                <div class="exp4">
+                    Anything that samples Lauryn Hill is on track to be amazing, but “Believe What I Say” brings Hill’s classic back to life. Donda stirred up controversy regarding its release date, but “Believe What I Say” makes up for it.
+                </div> 
             </div>
             <div class="song5">
-                <strong>Chill – Bakar, Chill</strong> <br>
-                “Chill” immediately makes me feel like I’m driving in my hometown alone at night (something I did ocean, and probably every other suburban teenager when there was nothing be\er to do). Bakar successfully delivers a nostalgic feeling with his slow beats, but juxtaposed by his raw tone makes “Chill” fitting for many different occasions. <br>
+                <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/chill/1455668668?i=1455668669"></iframe>
+                <div class="exp5">
+                    “Chill” immediately makes me feel like I’m driving in my hometown alone at night (something I did ocean, and probably every other suburban teenager when there was nothing better to do). Bakar successfully delivers a nostalgic feeling with his slow beats, but juxtaposed by his raw tone makes “Chill” fitting for many different occasions. <br>
+                </div>
             </div>
             <div class="song6">
-                <strong>Skate – Bruno Mars, Anderson .Paak & Silk Sonic, Skate</strong><br>
-                Bruno Mars and Anderson .Paak both have unique vocals, recognizable anywhere, and together it’s heavenly. They take you right back to the 60s and 70s with their beats and strings. Each verse is fairly chill, but the chorus is full of life and difficult to not dance to. <br>
+                <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/skate/1578738180?i=1578738184"></iframe>
+                <div class="exp6">
+                    Bruno Mars and Anderson .Paak both have unique vocals, recognizable anywhere, and together it’s heavenly. They take you right back to the 60s and 70s with their beats and strings. Each verse is fairly chill, but the chorus is full of life and difficult to not dance to. <br>
+                </div>
             </div>
             <div class="song7">
-                <strong>Take My Breath – The Weeknd, Take My Breath</strong> <br>
-                The Weeknd’s newest single also takes you right back to the 80s with synths and the bass. “Take My Breath” is energetic and one of his most catchy tunes. Could it possibly mean another album soon? <br>   
+                <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/take-my-breath/1579408007?i=1579408008"></iframe>
+                <div class="exp7">
+                    The Weeknd’s newest single also takes you right back to the 80s with synths and the bass. “Take My Breath” is energetic and one of his most catchy tunes. Could it possibly mean another album soon? <br>  
+                </div>
             </div>
-    </div>
-            <p><a class="button" onclick="openModal();"><strong>Give a Song Suggestion</strong></a></p>
 
-            <div id="modal">
+</div>
+<div class="suggest">
+    <p>Want to see some of your favorites on next week's playlist?</p>
+    <div class="form" class="modal-1 modal-animate-opacity"> 
+    <p><a class="button" onclick="openModal();"><strong>Give a Song Suggestion</strong></a></p>
+        <div id="modal"> 
+            <form action ="mailto:iakelley@syr.edu" method="POST">
                 <h2>Submit a song for the next playlist!</h2>
                 <label for="name">Song Name</label> <br>
                 <input type="text" id="name" name="name"><br>
-                <label for="name">Artist</label> <br>
-                <input type="text" id="name" name="name"><br>
+                <label for="name">Artist</label><br>
+                <input type="text" id="name" name="artist"><br>
                 <input class="subbutton" type="submit" value="Submit">
                 <a id='closeModal' onclick="closeModal();">X</a>
-
-            </div>
+                <a class="subbutton" id='closeModal' onclick="closeModal();"></a>
+            </form>
         </div>
-        
+    </div> 
+</div>
+</main>
+ 
+    
+<footer>
+    <div class="profile1"></div>
+    &copy; ISEABAIL KELLEY 2021<br>
+    <a href="https://www.linkedin.com/in/iseabailkelley/" target="_blank"><img src="../projectimages/linkedin_final.png" class="link" alt="LinkedIn Profile"></a>
+    <a href="https://www.instagram.com/isea_kelley/" target="_blank"><img src="../projectimages/instalogo1.png" class="inst" alt="Instagram Profile"></a><br>
+    <br>
 
-    <hr>
-
-    &copy; ISEABAIL KELLEY 2021
+</footer>
 </body>
 </html>

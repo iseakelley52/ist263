@@ -13,6 +13,30 @@
 
 </head>
 <script>
+    function NewsOff () {
+        document.getElementById('crypto1').style.display ='none';
+        document.getElementById('wired1').style.display ='none';
+        document.getElementById('fb1').style.display ='none';
+        document.getElementById('nytexp').style.display ='none';
+        document.getElementById('wiredexp').style.display ='none';
+        document.getElementById('wsjexp').style.display ='none';
+
+    }
+
+    function NytOn () {
+        document.getElementById('crypto1').style.display = 'block';
+        document.getElementById('nytexp').style.display = 'block';
+    }
+
+    function WiredOn () {
+        document.getElementById('wired1').style.display = 'block';
+        document.getElementById('wiredexp').style.display = 'block';
+    }
+
+    function WsjOn () {
+        document.getElementById('fb1').style.display = 'block';
+        document.getElementById('wsjexp').style.display = 'block';
+    }
 
 </script>
 <body>
@@ -23,48 +47,60 @@
         <a href="news.html">News</a>
     </nav>
 
-    <h1>Weekly News Roundup</h1><br>
-    <h2>Here’s the Latest. Stuff in the news that I think is important to share, but that I also want to share my opinions on. Updated weekly.</h2><br>   
-
-<div id="newscontainer">  
-    <div id='newsimages'>
-        <a href="https://www.wsj.com/articles/facebook-knows-instagram-is-toxic-for-teen-girls-company-documents-show-11631620739" target="_blank">
-            <img src="../projectimages/facebookslideshow.png" alt="WSJ">
-        </a>
-        <a href="https://www.nytimes.com/2021/09/24/business/dealbook/stablecoin-crypto-regulation.html" target="_blank">
-            <img src="../projectimages/cryptoslideshow.png" alt="crypto">
-        </a>
-        <a href="https://www.wired.com/story/new-formula-help-black-patients-access-kidney-care/" target="=blank">
-            <img src="../projectimages/wiredslideshow.png" alt="Wired">
-        </a>
-    </div>
-
-    <div id="planetinfo">
-        <div id="WSJ1">
-            <h2>WSJ Facebook Files</h2>
-            <h3>Facebook knows its platform is harmful for teen girls</h3>
-            <p> Naturally, my mom is the one who sent me this article. I grew up in the age of Snapchat and Instagram (honestly thank God it wasn’t TikTok?) and my mom always told me to get off my phone. I never realized how easily I compare myself to celebrities with unattainable lifestyles (especially as a college student). Reading this was almost discouraging for me. Not only can I understand this data in the context of my own life, but working at a company like Facebook was always something I knew I would love to do. How can we change these social media companies for the better?</p>
-        </div>
-
-        <div id="NYT1">
-            <h2>New York Times</h2>
-            <h3>Cryptocurrency Regulation</h3>
-            <p> Cryptocurrency was never something I understood, until this past summer when I was required to participate in a design sprint focusing on cryptocurrency during the last few weeks of my internship at an asset management firm. Safe to say it forced me to learn a lot. I’ll never forget an executive at the firm telling our small group of four design interns that cryptocurrency was on the rise (I trust his opinion, and you should too). But this article outlines how cryptocurrency is concerning federal regulators as large firms have become interested in using the digital asset. Crypto could be big for everyone, but we sell don’t know what will happen with new regulations on the horizon. </p>
-        </div>
-
-        <div id="WIRED1">
-            <h2>Wired Magazine</h2>
-            <h3>A new formula may help Black patients qualify for kidney care</h3>
-            <p>Healthcare in America is notorious for being unfair, and honestly, ridiculous. The article dives into the unfair process of deciding which patients get serious and necessary care, and how more white parents qualified for care solely because of their race. It’s articles like this that unfortunately anger me, but are also important to share so we can move forward with inclusivity in our communities and around the world.</p>
-        </div>
-    </div>
+<main>
+<div class="roundup">
+    <h1 class="weekhead">Weekly News Roundup</h1><br>
+    <h2>Here’s the latest. Stuff in the news that I think is important to share. Updated weekly.</h2><br>   
 </div>
-  
-        
 
-    </p>
+<div class="news_container">
+    <div class="big_images">
+        <a href="https://www.nytimes.com/2021/09/24/business/dealbook/stablecoin-crypto-regulation.html" target="_blank" alt="New York Times, Cryptocurrency Regulation">
+            <img src="../projectimages/cryptoslideshow.png" alt="crypto"  id="crypto1">
+        </a>
+        <a href="https://www.wired.com/story/new-formula-help-black-patients-access-kidney-care/" target="_blank" alt="Wired, Health Care"> 
+            <img src="../projectimages/wiredslideshow.png" alt="Wired" id="wired1">
+        </a>
+        <a href="https://www.wsj.com/articles/facebook-knows-instagram-is-toxic-for-teen-girls-company-documents-show-11631620739" target="_blank" alt="WSJ, Facebook Files">
+            <img src="../projectimages/facebookslideshow.png" alt="WSJ"  id="fb1">
+        </a>
+    </div>
 
-    <hr>
-    &copy; ISEABAIL KELLEY 2021
+    <div class="articleinfo">
+        <div id="nytexp">
+            <a href="https://www.nytimes.com/2021/09/24/business/dealbook/stablecoin-crypto-regulation.html" target="_blank" alt="New York Times, Cryptocurrency Regulation"><h2>New York Times: Cryptocurrency Regulation</h2></a>
+            <p>Cryptocurrency was never something I understood, until this past summer when I was required to participate in a design sprint focusing on cryptocurrency during the last few weeks of my internship at an asset management firm. Safe to say it forced me to learn a lot. I’ll never forget an executive at the firm telling our small group of four design interns that cryptocurrency was on the rise (I trust his opinion, and you should too). But this article outlines how cryptocurrency is concerning federal regulators as large firms have become interested in using the digital asset. Crypto could be big for everyone, but we sell don’t know what will happen with new regulations on the horizon.</p>
+        </div>
+
+        <div id="wiredexp">
+            <a href="https://www.wired.com/story/new-formula-help-black-patients-access-kidney-care/" target="_blank" alt="Wired, Health Care"><h2>Wired: Inequality in Health Care</h2></a>
+            <p>Healthcare in America is notorious for being unfair, and honestly, ridiculous. The article dives into the unfair process of deciding which patients get serious and necessary care, and how more white parents qualified for care solely because of their race. It’s articles like this that unfortunately anger me, but are also important to share so we can move forward with inclusivity in our communities and around the world</p>
+        </div>
+
+        <div id="wsjexp">
+            <a href="https://www.wsj.com/articles/facebook-knows-instagram-is-toxic-for-teen-girls-company-documents-show-11631620739" target="_blank" alt="WSJ, Facebook Files"><h2>WSJ: Facebook Files</h2></a>
+            <p>Naturally, my mom is the one who sent me this article. I grew up in the age of Snapchat and Instagram (honestly thank God it wasn’t TikTok?) and my mom always told me to get off my phone. I never realized how easily I compare myself to celebrities with unattainable lifestyles (especially as a college student). Reading this was almost discouraging for me. Not only can I understand this data in the context of my own life, but working at a company like Facebook was always something I knew I would love to do. How can we change these social media companies for the better?</p>
+        </div>
+
+</div>
+
+<div class='thumb'></div>
+<div id="thumbnails">
+    <img src="../projectimages/cryptoslideshow.png" alt="crypto" id="cryptothumb" onclick="NewsOff(); NytOn();">
+    <img src="../projectimages/wiredslideshow.png" alt="Wired" id="wiredthumb" onclick="NewsOff(); WiredOn();">
+    <img src="../projectimages/facebookslideshow.png" alt="WSJ" id="fbthumb" onclick="NewsOff(); WsjOn();">
+</div>
+
+
+</main>
+<footer>
+    <div class="profile1"></div>
+    &copy; ISEABAIL KELLEY 2021<br>
+    <a href="https://www.linkedin.com/in/iseabailkelley/" target="_blank"><img src="../projectimages/linkedin_final.png" class="link" alt="LinkedIn Profile"></a>
+    <a href="https://www.instagram.com/isea_kelley/" target="_blank"><img src="../projectimages/instalogo1.png" class="inst" alt="Instagram Profile"></a><br>
+    <br>
+
+</footer>
+    
 </body>
 </html>
