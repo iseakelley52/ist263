@@ -378,6 +378,18 @@ footer {
 }
 
 
+.nytcentered {
+    position: absolute;
+    color: #11324d; 
+    top: 40%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    font-family: 'Quicksand', sans-serif; 
+    background-color: #cfe6d0;
+    padding: 10px; 
+}
+
+
 
 @media only screen and (max-width: 1200px) {
     .news_container { 
