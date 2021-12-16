@@ -397,6 +397,15 @@ footer {
     }
 }
 
+#skip {
+    position: absolute;  
+    left: -999px; 
+    background-color: #3d90a7
+}
+#skip:focus {
+    left: 10px; 
+}
+
 
 
 
