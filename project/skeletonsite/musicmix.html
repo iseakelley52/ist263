@@ -37,7 +37,8 @@
             <img src="../projectimages/musicmixfinal.png" alt="My Music Mix" class="musicheader1"> 
         </div>
     </header>
-<main>
+    
+</main>
 <div class="musicintro1">
    <div class="musicheader2">
         <h1 class="musichead"><strong>Weekly Music Mix</strong></h1><br>
@@ -92,18 +93,18 @@
 
 <div class="suggest">
     <p>Want to see some of your favorites on next week's playlist?</p>
-    <div class="form" class="modal-1 modal-animate-opacity"> 
+    <div class="form"> 
     <p><a class="button" onclick="openModal();"><strong>Give a Song Suggestion</strong></a></p>
         <div id="modal"> 
             <form action ="mailto:iakelley@syr.edu" method="POST">
                 <h2>Submit a song for the next playlist!</h2>
                 <label for="name">Song Name</label> <br>
                 <input type="text" id="name" name="name"><br>
-                <label for="name">Artist</label><br>
-                <input type="text" id="name" name="artist"><br>
+                <label for="artist">Artist</label><br>
+                <input type="text" id="artist" name="artist"><br>
                 <input class="subbutton" type="submit" value="Submit">
                 <a id='closeModal' onclick="closeModal();">X</a>
-                <a class="subbutton" id='closeModal' onclick="closeModal();"></a>
+                <a class="subbutton" id='closemodal' onclick="closeModal();"></a>
             </form>
         </div>
     </div> 

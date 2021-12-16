@@ -243,7 +243,7 @@ p, nav, h3, .newsimages, h1, h2, a , .song1, .song2, .song3, .song4, .song5, .so
     
 }
 
-#closeModal {
+#closemodal {
     cursor: pointer;
     position: absolute; 
     top: 0; 
